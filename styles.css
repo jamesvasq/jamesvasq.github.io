@@ -1,0 +1,88 @@
+.bodystyle {
+  font-family: 'Courier New', Courier, monospace; 
+  background-color: #0a0a0a;
+}
+
+.link {
+  background: linear-gradient(50deg, rgba(232,106,97,1) 0%, rgba(232,106,97,0.6) 50%); 
+  margin: 10%; 
+  padding:  3%; 
+  border-radius: 5px;color: aliceblue; 
+  display: block;
+}
+
+.nametitle {
+  color: aliceblue;
+  text-indent: 15px;
+  letter-spacing: 15px; 
+  max-width: 
+  max-content;
+}
+
+.infocard {
+  padding: 2%;
+  border-radius: 5px; 
+  color: aliceblue;
+}
+
+.parallax {
+  background-image: url('DALL·E 2023-01-27 01.09.37 - cyberpunk city street view artwork.png');
+  width: 100%;
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 
+  cover;
+}
+
+.pulsating-effect:hover {
+  animation: pulse 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.nobackground {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+.colorwhite{
+  color: aliceblue;
+}
+
+.colorblack {
+  color: #0a0a0a;
+  background-color: #0a0a0a;
+}
+
+.colorblue {
+  color:#6a95bd;
+}
+
+.colorpink {
+  color: #e86a61;
+}
+
+.colorpinkgradient {
+  background: linear-gradient(50deg, rgba(232,106,97,1) 0%, rgba(232,106,97,0.6) 50%);
+}
+
+.colorpurple {
+  color: #a17ac4;
+}
